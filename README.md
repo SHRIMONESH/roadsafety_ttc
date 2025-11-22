@@ -45,6 +45,7 @@ Conceptual pipeline:
 6. Detection head: YOLO-style head predicts boxes, objectness, and class probabilities.
 
 ---
+<img width="1453" height="711" alt="image" src="https://github.com/user-attachments/assets/46a9ee00-98d5-403c-9c70-b8038034ce6c" />
 
 ## 📂 Repository Structure (Suggested)
 
