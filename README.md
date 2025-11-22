@@ -58,10 +58,6 @@ In traditional workflows, engineers manually review reports to determine if a lo
 
 The architecture is designed as a unidirectional pipeline to ensure data consistency and error handling.
 <img width="1453" height="711" alt="image" src="https://github.com/user-attachments/assets/46a9ee00-98d5-403c-9c70-b8038034ce6c" />
-
-
-### Data Flow Diagram
-
 ```mermaid
 graph TD
     subgraph Ingestion
@@ -78,7 +74,7 @@ graph TD
     end
 
     subgraph Synthesis
-    G -->|Prompt Engineering| H[LLM (Grok/OpenAI)]
+    G -->|Prompt Engineering| H["LLM (Grok/OpenAI)"]
     H -->|JSON Mode| I[Structured Output]
     I -->|Schema Check| J[Validator]
     end
